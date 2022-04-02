@@ -12,7 +12,7 @@ import (
 
 func main(){
 	// fmt.Println("\n")
-	fmt.Println("frequester tool By tojojo !!")
+	fmt.Println("qsreplace Minxss'\" !!")
 	fmt.Println("\\__(-_-)__/")
 	// fmt.Println("\n")
 

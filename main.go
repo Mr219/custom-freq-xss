@@ -42,7 +42,7 @@ func main(){
 	      			fmt.Println(err)
 	   			}
 	   			sb := string(body)
-	   			check_result := strings.Contains(sb , "Minxss'\"")
+	   			check_result := strings.Contains(sb , "Minxss'")
 	   			// fmt.Println(check_result)
 	   			if check_result != false {
 	   				fmt.Println(string(colorRed),"Vulnerable To XSS:", domain,string(colorReset))

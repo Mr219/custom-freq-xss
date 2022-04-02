@@ -47,7 +47,9 @@ func main(){
 	   			if check_result != false {
 	   				fmt.Println(string(colorRed),"Vulnerable To XSS:", domain,string(colorReset))
 	   			}else{
-	   				fmt.Println(string(colorGreen),"\r\n .", string(colorReset))
+	   				line = string(colorGreen),"\r\n .", string(colorReset)
+					line = strings.TrimSuffix(line, "\n") // removing only one newline
+					fmt.Printf("'%s'\n", line)
 	   			}
 
 			}

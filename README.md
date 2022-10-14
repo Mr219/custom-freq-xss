@@ -1,2 +1,2 @@
 # custom-freqxss
-test
+version 2

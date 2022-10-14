@@ -1,13 +1,9 @@
 package main
 
 import (
-	"sync"
-	"bufio"
-	"net/http"
+
 	"fmt"
 	"os"
-	"strings"
-	"io/ioutil"
 )
 
 func main(){
